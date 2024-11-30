@@ -4,6 +4,6 @@ BUILD_DIR=$1
 
 echo "Copying pre-downloaded NLTK data..."
 mkdir -p $BUILD_DIR/nltk_data
-cp -r /path/to/local/nltk_data/* $BUILD_DIR/nltk_data/
+cp -r $BUILD_DIR/nltk_data/* $BUILD_DIR/nltk_data/  # Adjust this line with the correct path
 
 echo "NLTK data copied successfully."
