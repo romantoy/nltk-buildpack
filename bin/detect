@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Custom NLTK Buildpack"
+exit 0
